@@ -1,0 +1,149 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Ophalen 2026-11-03</title><style>
+    *{box-sizing:border-box} body{margin:0;background:#fff;font:16px -apple-system,"Helvetica Neue",Arial,sans-serif;color:#1d2433}
+    #sheet{width:400px;padding:20px 16px 16px}
+    body{-webkit-text-size-adjust:100%} #sheet{width:auto;padding:calc(12px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px))}
+    h1{margin:0;font-size:22px;line-height:1.2} .sub{color:#667085;margin:4px 0 12px;font-size:14px}
+    .row{display:flex;gap:12px;padding:10px 4px;border-top:1px solid #e4e7ec}
+    .grp{margin-top:14px;padding:6px 4px;font-size:14px;font-weight:700;color:#6941c6;border-bottom:2px solid #6941c6;display:flex;align-items:center;gap:8px}
+    .grp .gn{background:#6941c6;color:#fff;border-radius:999px;font-size:12px;min-width:22px;padding:1px 7px;text-align:center}
+    .grp + .row{border-top:0}
+    .grp.gone{display:none}
+    .time{width:62px;flex:none;text-align:right}
+    .big{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1;color:#1d5fa8}
+    .lbl{font-size:11px;color:#667085;margin-top:2px}
+    .time.pp .big{color:#b8620a}
+    .info{min-width:0;flex:1}
+    .name{font-weight:600;font-size:17px;line-height:1.25}
+    .meta{font-size:14px;color:#475467;margin-top:1px}
+    .pp{font-size:13px;color:#667085;margin-top:3px}
+    .ppt{color:#b8620a;font-weight:600}
+    .late .pp b{color:#b42318} .early .pp b{color:#0e7c66} .ok .pp b{color:#475467;font-weight:500}
+    .acts{display:flex;flex-direction:column;gap:6px;flex:none;align-self:center}
+    .ic{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;color:#fff;text-decoration:none}
+    .ic.wa{background:#25a244} .ic.tel{background:#1d5fa8}
+    .odd .pp b{color:#b54708}
+    .pax{color:#d92d20;font-weight:700}
+    .nl{display:flex;align-items:flex-start;gap:6px} .nl .name{flex:1;min-width:0;overflow-wrap:anywhere}
+    .bin{flex:none;width:32px;height:32px;margin:-5px -4px -4px 0;padding:0;border:0;border-radius:8px;background:none;color:#98a2b3;display:flex;align-items:center;justify-content:center;cursor:pointer;touch-action:manipulation}
+    .bin:active{color:#d92d20;background:#fee4e2}
+    a.fl{color:#1d5fa8;font-weight:600;text-decoration:none;white-space:nowrap}
+    .exp{font-size:13px;color:#6941c6;margin-top:3px} .exp b{font-weight:700} .exp.pp{color:#b8620a} .exp span{color:#98a2b3}
+    .row.gone{display:none}
+    #toast{position:fixed;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:none;align-items:center;gap:12px;
+      background:#1d2433;color:#fff;border-radius:12px;padding:12px 14px;font-size:15px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+    #toast.on{display:flex} #toast span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    #toast button,#restore{border:0;background:none;color:#7cb4f5;font:inherit;font-weight:700;padding:4px;cursor:pointer}
+    #restore{color:#1d5fa8;font-size:13px;padding:8px 0;display:none}
+    body.locked #sheet{display:none} #gate{display:none} body.locked #gate{display:block;max-width:360px;margin:18vh auto 0;padding:0 20px}
+    #gate h2{margin:0 0 12px;font-size:22px} #gate label{display:block;color:#667085;font-size:14px;margin-bottom:6px}
+    #gate input{width:100%;font:inherit;font-size:18px;padding:12px;border:2px solid #1d5fa8;border-radius:10px}
+    #gate button{width:100%;margin-top:10px;font:inherit;font-weight:700;padding:12px;border:0;border-radius:10px;background:#1d2433;color:#fff}
+    #gate p{color:#d92d20;font-size:14px}
+    .foot{border-top:1px solid #e4e7ec;padding-top:10px;font-size:12px;color:#667085;line-height:1.5}
+    .empty{padding:20px 4px;color:#667085;border-top:1px solid #e4e7ec}
+    .k{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:0}
+  </style></head><body class="locked"><form id="gate"><h2>Ophaaloverzicht</h2>
+    <label for="gc">Toegangscode</label><input id="gc" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <button type="submit">Openen</button><p id="gm" hidden>Onjuiste code.</p></form><div id="sheet">
+    <h1>Ophalen · dinsdag 3 november</h1>
+    <div class="sub"><span id="cnt">11</span> klanten · <span style="color:#1d5fa8;font-weight:600">ETA Schiphol</span> · <span class="ppt">ParkingPro</span></div>
+    <div class="grp" data-g="9">09:00 – 10:00 <span class="gn">1</span></div><div class="row ok" data-g="9" data-id="PFDJHGQ2">
+      <div class="time "><div class="big">07:52</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Miepke Bakx</div><button type="button" class="bin" aria-label="Verwijder Miepke Bakx"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103KL0736/" target="_blank" rel="noopener">✈ KL736</a> · Curacao · <b class="pax">2 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 08:00</span></div><div class="exp">Klant verwacht <b>09:17–09:22</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31638222371" aria-label="WhatsApp Miepke Bakx"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31638222371" aria-label="Bel Miepke Bakx"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="grp" data-g="11">11:00 – 12:00 <span class="gn">2</span></div><div class="row early" data-g="11" data-id="P7F6E">
+      <div class="time "><div class="big">09:37</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Jan-Peter Pater</div><button type="button" class="bin" aria-label="Verwijder Jan-Peter Pater"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103OR381/" target="_blank" rel="noopener">✈ Or381</a> · Aruba · <b class="pax">3 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 12:00</span></div><div class="exp">Klant verwacht <b>11:02–11:07</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31638167270" aria-label="WhatsApp Jan-Peter Pater"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31638167270" aria-label="Bel Jan-Peter Pater"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="row early" data-g="11" data-id="PFD9UN2T">
+      <div class="time "><div class="big">10:17</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Jakub Rakowiecki</div><button type="button" class="bin" aria-label="Verwijder Jakub Rakowiecki"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103EJU8673/" target="_blank" rel="noopener">✈ EJU8673</a> · Londen · <b class="pax">1 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 11:30</span></div><div class="exp">Klant verwacht <b>11:42–11:47</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/48532811532" aria-label="WhatsApp Jakub Rakowiecki"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+48532811532" aria-label="Bel Jakub Rakowiecki"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="grp" data-g="14">14:00 – 15:00 <span class="gn">1</span></div><div class="row early" data-g="14" data-id="PFD6PVA4">
+      <div class="time "><div class="big">13:12</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Petra Neitsch</div><button type="button" class="bin" aria-label="Verwijder Petra Neitsch"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103QR273/" target="_blank" rel="noopener">✈ QR273</a> · Doha · <b class="pax">1 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 14:00</span></div><div class="exp">Klant verwacht <b>14:37–14:42</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/491714195175" aria-label="WhatsApp Petra Neitsch"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+491714195175" aria-label="Bel Petra Neitsch"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="grp" data-g="16">16:00 – 17:00 <span class="gn">3</span></div><div class="row early" data-g="16" data-id="PFDNELK3">
+      <div class="time "><div class="big">15:47</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Paul van der Hek</div><button type="button" class="bin" aria-label="Verwijder Paul van der Hek"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103KL1374/" target="_blank" rel="noopener">✈ KL1374</a> · Boekarest · <b class="pax">3 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 16:30</span></div><div class="exp">Klant verwacht <b>16:17–16:32</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31611216789" aria-label="WhatsApp Paul van der Hek"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31611216789" aria-label="Bel Paul van der Hek"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="row early" data-g="16" data-id="PFD8MBS8">
+      <div class="time "><div class="big">15:47</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Wim Goedhart</div><button type="button" class="bin" aria-label="Verwijder Wim Goedhart"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103KL1374/" target="_blank" rel="noopener">✈ KL1374</a> · Boekarest · <b class="pax">4 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 16:30</span></div><div class="exp">Klant verwacht <b>16:17–16:32</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31653353244" aria-label="WhatsApp Wim Goedhart"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31653353244" aria-label="Bel Wim Goedhart"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="row late" data-g="16" data-id="ZPRQF">
+      <div class="time "><div class="big">15:52</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Sabrina Wilbrink</div><button type="button" class="bin" aria-label="Verwijder Sabrina Wilbrink"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103KL1922/" target="_blank" rel="noopener">✈ KL1922</a> · Zurich · <b class="pax">2 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 14:15</span></div><div class="exp">Klant verwacht <b>16:22–16:37</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31618565259" aria-label="WhatsApp Sabrina Wilbrink"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31618565259" aria-label="Bel Sabrina Wilbrink"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="grp" data-g="20">20:00 – 21:00 <span class="gn">2</span></div><div class="row early" data-g="20" data-id="MLZ5H">
+      <div class="time "><div class="big">18:47</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Roman Görz</div><button type="button" class="bin" aria-label="Verwijder Roman Görz"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103CZ0307/" target="_blank" rel="noopener">✈ CZ307</a> · Guangzhou · <b class="pax">2 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 19:45</span></div><div class="exp">Klant verwacht <b>20:12–20:17</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/491629819158" aria-label="WhatsApp Roman Görz"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+491629819158" aria-label="Bel Roman Görz"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="row early" data-g="20" data-id="F49BN">
+      <div class="time "><div class="big">18:52</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Joep Büsgen</div><button type="button" class="bin" aria-label="Verwijder Joep Büsgen"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103BR075/" target="_blank" rel="noopener">✈ BR075</a> · Taipei · <b class="pax">1 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 20:00</span></div><div class="exp">Klant verwacht <b>20:17–20:22</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31635609611" aria-label="WhatsApp Joep Büsgen"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31635609611" aria-label="Bel Joep Büsgen"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="grp" data-g="21">21:00 – 22:00 <span class="gn">2</span></div><div class="row early" data-g="21" data-id="PFDKBXSV">
+      <div class="time "><div class="big">20:12</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Brecht Woters</div><button type="button" class="bin" aria-label="Verwijder Brecht Woters"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103EJU7978/" target="_blank" rel="noopener">✈ EJU7978</a> · Hurghada · <b class="pax">2 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 21:00</span></div><div class="exp">Klant verwacht <b>21:37–21:42</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/320497031266" aria-label="WhatsApp Brecht Woters"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+320497031266" aria-label="Bel Brecht Woters"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div><div class="row early" data-g="21" data-id="B8MXA">
+      <div class="time "><div class="big">20:12</div><div class="lbl">ETA</div></div>
+      <div class="info"><div class="nl"><div class="name">Veronique Van der Kaap</div><button type="button" class="bin" aria-label="Verwijder Veronique Van der Kaap"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg></button></div><div class="meta"><a class="fl" href="https://www.schiphol.nl/nl/aankomst/vlucht/A20261103EJU7978/" target="_blank" rel="noopener">✈ EJU7978</a> · Hurghada · <b class="pax">2 pers.</b></div><div class="pp"><span class="ppt">ParkingPro 21:00</span></div><div class="exp">Klant verwacht <b>21:37–21:42</b></div></div><div class="acts">
+        <a class="ic wa" href="https://wa.me/31640973718" aria-label="WhatsApp Veronique Van der Kaap"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 0 1 12 4zm-3.2 4c-.2 0-.5 0-.7.3-.3.3-1 .9-1 2.3s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4l-.4-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5z"/></svg></a>
+        <a class="ic tel" href="tel:+31640973718" aria-label="Bel Veronique Van der Kaap"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a></div>
+    </div>
+    <div class="foot">Gegroepeerd per uur waarin de klant bij vertrekhal 3, deur D verwacht wordt.<br>
+      <span class="k" style="background:#b54708"></span>tijden 3+ uur uit elkaar: vluchtnummer controleren<br>
+      <span class="k" style="background:#6941c6"></span>klant verwacht: ETA + 30–45 min (Schengen) of 85–90 min (buiten Schengen); zonder vlucht de ParkingPro-tijd<br>
+      Gesynct 2-11-2026, 22:27:20</div>
+    <button type="button" id="restore"></button>
+  </div><div id="toast" role="status"><span></span><button type="button">Ongedaan maken</button></div>
+  <script>(function(){
+  // same access code as PFD Messenger (also remembered under the same key)
+  var H=4172175035;
+  function hash(t){var x=2166136261;String(t).trim().toLowerCase().split('').forEach(function(ch){x^=ch.codePointAt(0);x=Math.imul(x,16777619)>>>0});return x}
+  if(H){var ok=false;try{ok=localStorage.getItem('pfd-code')===String(H)}catch(e){}
+    if(ok) document.body.classList.remove('locked');
+    else document.getElementById('gate').onsubmit=function(e){e.preventDefault();
+      if(hash(document.getElementById('gc').value)===H){try{localStorage.setItem('pfd-code',String(H))}catch(e){}document.body.classList.remove('locked')}
+      else document.getElementById('gm').hidden=false;};}
+  var KEY='pfd-ophalen-deleted-2026-11-03', del=[];
+  try{del=JSON.parse(localStorage.getItem(KEY))||[]}catch(e){del=[]}
+  function store(){try{localStorage.setItem(KEY,JSON.stringify(del))}catch(e){}}
+  var rows=[].slice.call(document.querySelectorAll('.row[data-id]'));
+  var toast=document.getElementById('toast'), restore=document.getElementById('restore'), timer=null, last=null;
+  function update(){
+    var shown=0; rows.forEach(function(r){var g=del.indexOf(r.getAttribute('data-id'))>-1; r.classList.toggle('gone',g); if(!g) shown++;});
+    document.getElementById('cnt').textContent=shown;
+    [].forEach.call(document.querySelectorAll('.grp'),function(g){
+      var k=g.getAttribute('data-g'), n=0;
+      rows.forEach(function(r){ if(r.getAttribute('data-g')===k && !r.classList.contains('gone')) n++; });
+      g.classList.toggle('gone',!n); g.querySelector('.gn').textContent=n;
+    });
+    var n=rows.length-shown; restore.style.display=n?'block':'none'; restore.textContent='Verwijderde rijen terugzetten ('+n+')';
+  }
+  rows.forEach(function(r){
+    var b=r.querySelector('.bin'); if(!b) return;
+    b.addEventListener('click',function(){
+      var id=r.getAttribute('data-id'); if(del.indexOf(id)<0) del.push(id); store(); update();
+      last=id; toast.querySelector('span').textContent=(r.querySelector('.name').textContent||'Rij')+' verwijderd';
+      toast.classList.add('on'); clearTimeout(timer); timer=setTimeout(function(){toast.classList.remove('on')},6000);
+    });
+  });
+  toast.querySelector('button').addEventListener('click',function(){
+    del=del.filter(function(x){return x!==last}); store(); update(); toast.classList.remove('on');
+  });
+  restore.addEventListener('click',function(){del=[]; store(); update();});
+  update();
+})();</script></body></html>
